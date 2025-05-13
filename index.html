@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LS Performance Estratégica</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f7f7f7;
+      color: #333;
+    }
+    header, footer {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    nav {
+      background: #111;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 1rem;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #c62828;
+      margin-bottom: 1rem;
+    }
+    .case, .post {
+      background: #fff;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-left: 4px solid #c62828;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .service {
+      display: flex;
+      gap: 2rem;
+      justify-content: space-around;
+    }
+    .service div {
+      flex: 1;
+      padding: 1rem;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: white;
+      border-radius: 50%;
+      width: 55px;
+      height: 55px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-size: 26px;
+      z-index: 1000;
+    }
+    footer a {
+      color: #fff;
+      margin: 0 10px;
+    }
+    .team-photo {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+    }
+    .service img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LS Performance Estratégica</h1>
+    <p>Consultoria especializada em resultados com estratégia e performance.</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#diferenciais">Diferenciais</a>
+    <a href="#cases">Cases</a>
+    <a href="#blog">Blog</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre Leonardo Santos</h2>
+    <p>Leonardo é especialista em estratégia e gestão de performance, com mais de 10 anos de experiência em ajudar empresas a se destacarem no mercado. Criou a LS Performance Estratégica com o propósito de transformar negócios com soluções reais e personalizadas. Com uma abordagem prática e focada em resultados, sua missão é guiar empresas ao topo de sua performance.</p>
+    <img src="/mnt/data/A_professional_digital_graphic_design_promotional_.png" alt="Sobre Leonardo Santos" class="team-photo"/>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <div class="service">
+      <div>
+        <h3>Diagnóstico e Planejamento Estratégico</h3>
+        <p>Analisamos profundamente sua empresa para propor planos de ação claros e eficazes, alinhados aos seus objetivos.</p>
+      </div>
+      <div>
+        <h3>Mentoria de Alta Performance</h3>
+        <p>Desenvolva líderes estratégicos que inspirem resultados extraordinários. Potencializamos líderes e equipes.</p>
+      </div>
+      <div>
+        <h3>Implementação de Cultura de Resultados</h3>
+        <p>Transforme sua organização em uma máquina de resultados, focando em metas claras e na execução de alta performance.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="diferenciais">
+    <h2>Diferenciais da LS Performance</h2>
+    <ul>
+      <li>Atendimento altamente personalizado, com soluções adaptadas para o seu negócio.</li>
+      <li>Metodologia própria de desenvolvimento de estratégias que geram resultados mensuráveis.</li>
+      <li>Equipe com vasta experiência em diversas indústrias e segmentos de mercado.</li>
+      <li>Foco contínuo na melhoria de processos e na implementação prática das estratégias sugeridas.</li>
+    </ul>
+  </section>
+
+  <section id="cases">
+    <h2>Cases de Sucesso</h2>
+    <div class="case">
+      <strong>Empresa X:</strong> Após 6 meses de consultoria, a performance da equipe aumentou em 45%, o que resultou em um crescimento de 30% no faturamento anual.
+    </div>
+    <div class="case">
+      <strong>Negócio Y:</strong> Implementação de uma cultura de resultados que levou a empresa a dobrar a produtividade e superar metas desafiadoras.
+    </div>
+  </section>
+
+  <section id="blog">
+    <h2>Blog Estratégico</h2>
+    <div class="post">
+      <strong>📌 Como a liderança impacta diretamente nos resultados da sua equipe</strong>
+      <p>O papel de um líder vai além de orientar. A liderança estratégica é um motor que move equipes em direção aos resultados. Saiba como líderes de sucesso criam ambientes de alta performance e engajamento.</p>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato e Feedback</h2>
+    <p>Tem dúvidas, sugestões ou quer agendar uma conversa? Preencha o formulário abaixo!</p>
+    <form action="https://formspree.io/f/mayvjpqk" method="POST">
+      <input type="text" name="nome" placeholder="Seu nome" required />
+      <input type="email" name="email" placeholder="Seu e-mail" required />
+      <textarea name="mensagem" rows="5" placeholder="Sua mensagem ou feedback" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <a class="whatsapp-float" href="https://w.app/lsperformance" target="_blank" title="Fale no WhatsApp">💬</a>
+
+  <footer>
+    <p>© 2025 LS Performance Estratégica</p>
+    <p><a href="https://www.instagram.com/lsperfomarce" target="_blank">Instagram</a> | <a href="https://w.app/lsperformance" target="_blank">WhatsApp</a></p>
+  </footer>
+
+  <!-- Google Analytics pronto para ativar -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=SUA-ID-GA"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'SUA-ID-GA');
+  </script>
+  -->
+</body>
+</html>
